@@ -40,8 +40,6 @@ coverage/
 .cache/
 /.turbo/
 
-## Local appwrite credentials or other secrets
-src/lib/appwrite.*
 # Logs
 logs
 *.log
