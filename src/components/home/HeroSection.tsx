@@ -90,7 +90,6 @@ const HeroSection = () => {
               <div className="absolute inset-6 sm:inset-8 bg-cream-dark rounded-full flex items-center justify-center border-2 sm:border-4 border-mustard/30">
                 {/* Placeholder for hero illustration */}
                 <div className="text-center p-4 sm:p-8">
-                  <div className="text-4xl sm:text-5xl lg:text-6xl mb-2 sm:mb-4">📚</div>
                   <p className="text-olive font-serif text-base sm:text-lg lg:text-xl font-bold">Learning & Growing</p>
                   <p className="text-muted-foreground text-xs sm:text-sm mt-1 sm:mt-2">Together</p>
                 </div>

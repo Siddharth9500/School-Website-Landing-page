@@ -50,7 +50,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
-            {navLinks.slice(0, 6).map((link) => (
+            {navLinks.slice(0, 7).map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
@@ -86,7 +86,7 @@ const Navbar = () => {
         )}
       >
         <div className="container mx-auto px-4 py-4">
-          {navLinks.slice(0, 6).map((link) => (
+          {navLinks.slice(0, 7).map((link) => (
             <Link
               key={link.path}
               to={link.path}

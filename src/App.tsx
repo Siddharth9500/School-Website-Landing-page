@@ -9,6 +9,7 @@ import Academics from "./pages/Academics";
 import Admissions from "./pages/Admissions";
 import Facilities from "./pages/Facilities";
 import Faculty from "./pages/Faculty";
+import Gallery from "./pages/Gallery";
 import CampusLife from "./pages/CampusLife";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/admissions" element={<Admissions />} />
           <Route path="/facilities" element={<Facilities />} />
           <Route path="/faculty" element={<Faculty />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/campus-life" element={<CampusLife />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

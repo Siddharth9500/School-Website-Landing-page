@@ -16,10 +16,10 @@ const academicsData = {
 
 // Photo collage data
 const collageImages = [
-  { id: 1, alt: "Science lab", emoji: "🔬" },
-  { id: 2, alt: "Art class", emoji: "🎨" },
-  { id: 3, alt: "Library", emoji: "📖" },
-  { id: 4, alt: "Sports", emoji: "⚽" },
+  { id: 1, alt: "Science lab" },
+  { id: 2, alt: "Art class" },
+  { id: 3, alt: "Library" },
+  { id: 4, alt: "Sports" },
 ];
 
 const AcademicsPreview = () => {
@@ -79,7 +79,6 @@ const AcademicsPreview = () => {
                 }`}
               >
                 <div className="text-center p-4 sm:p-6">
-                  <span className="text-3xl sm:text-4xl lg:text-5xl">{image.emoji}</span>
                   <p className="text-muted-foreground text-xs sm:text-sm mt-1 sm:mt-2">{image.alt}</p>
                 </div>
               </motion.div>

@@ -15,10 +15,10 @@ const aboutData = {
 
 // Photo collage data
 const collageImages = [
-  { id: 1, alt: "Students learning", emoji: "👨‍🎓" },
-  { id: 2, alt: "Classroom activity", emoji: "✏️" },
-  { id: 3, alt: "Outdoor activities", emoji: "🌳" },
-  { id: 4, alt: "Group project", emoji: "🤝" },
+  { id: 1, alt: "Students learning", emoji: "" },
+  { id: 2, alt: "Classroom activity", emoji: "" },
+  { id: 3, alt: "Outdoor activities", emoji: "" },
+  { id: 4, alt: "Group project", emoji: "" },
 ];
 
 const AboutPreview = () => {

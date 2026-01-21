@@ -7,14 +7,14 @@ import { ArrowRight } from "lucide-react";
 
 // Data for easy admin panel integration
 const facilities = [
-  { id: 1, title: "Modern Library", description: "50,000+ books, digital resources, and quiet study zones", emoji: "📚" },
-  { id: 2, title: "Science Labs", description: "State-of-the-art Physics, Chemistry, and Biology labs", emoji: "🔬" },
-  { id: 3, title: "Computer Labs", description: "300+ latest computers with high-speed internet", emoji: "💻" },
-  { id: 4, title: "Sports Complex", description: "Olympic-sized pool, indoor courts, and athletics track", emoji: "🏆" },
-  { id: 5, title: "Auditorium", description: "1000-seat capacity with professional audio-visual setup", emoji: "🎭" },
-  { id: 6, title: "Cafeteria", description: "Nutritious meals prepared by certified chefs", emoji: "🍽️" },
-  { id: 7, title: "Medical Center", description: "24/7 healthcare with qualified medical staff", emoji: "🏥" },
-  { id: 8, title: "Art Studio", description: "Creative spaces for painting, sculpture, and design", emoji: "🎨" },
+  { id: 1, title: "Modern Library", description: "50,000+ books, digital resources, and quiet study zones" },
+  { id: 2, title: "Science Labs", description: "State-of-the-art Physics, Chemistry, and Biology labs" },
+  { id: 3, title: "Computer Labs", description: "300+ latest computers with high-speed internet" },
+  { id: 4, title: "Sports Complex", description: "Olympic-sized pool, indoor courts, and athletics track" },
+  { id: 5, title: "Auditorium", description: "1000-seat capacity with professional audio-visual setup" },
+  { id: 6, title: "Cafeteria", description: "Nutritious meals prepared by certified chefs" },
+  { id: 7, title: "Medical Center", description: "24/7 healthcare with qualified medical staff" },
+  { id: 8, title: "Art Studio", description: "Creative spaces for painting, sculpture, and design" },
 ];
 
 const Facilities = () => {
@@ -54,12 +54,8 @@ const Facilities = () => {
                   transition={{ delay: index * 0.05 }}
                   className="group bg-cream rounded-2xl overflow-hidden shadow-soft border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-2"
                 >
-                  {/* Emoji Placeholder */}
+                  {/* Icon Placeholder */}
                   <div className="aspect-square bg-gradient-to-br from-mustard/20 to-orange/20 relative overflow-hidden flex items-center justify-center">
-                    <span className="text-7xl group-hover:scale-110 transition-transform duration-300">
-                      {facility.emoji}
-                    </span>
-                    
                     {/* Overlay on Hover */}
                     <div className="absolute inset-0 bg-olive/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6">
                       <p className="text-cream text-sm text-center">

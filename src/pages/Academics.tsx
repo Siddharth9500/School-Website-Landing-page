@@ -110,9 +110,6 @@ const Academics = () => {
                         <div className="absolute -inset-4 bg-gradient-to-br from-mustard/20 to-orange/20 rounded-3xl blur-xl" />
                         <div className="relative aspect-video rounded-2xl bg-cream flex items-center justify-center shadow-card overflow-hidden border border-border">
                           <div className="text-center p-8">
-                            <span className="text-6xl mb-4 block">
-                              {index === 0 ? "📚" : index === 1 ? "🔬" : "🎓"}
-                            </span>
                             <p className="text-olive font-serif font-bold">{stream.title}</p>
                           </div>
                         </div>

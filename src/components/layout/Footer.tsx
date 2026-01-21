@@ -32,14 +32,14 @@ const Footer = () => {
       <div className="bg-olive border-b border-cream/10">
         <div className="container mx-auto px-4">
           <div className="flex justify-center gap-3 sm:gap-6 lg:gap-8 py-3 sm:py-4 text-2xl sm:text-3xl lg:text-4xl opacity-80 flex-wrap">
-            <span>👧</span>
-            <span>👦</span>
-            <span className="hidden sm:inline">🎒</span>
-            <span>👧</span>
-            <span>📚</span>
-            <span className="hidden sm:inline">👦</span>
-            <span>✏️</span>
-            <span className="hidden md:inline">👧</span>
+            
+            
+            
+            
+            
+            
+            
+            
           </div>
         </div>
       </div>
